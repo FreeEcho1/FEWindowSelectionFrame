@@ -1,0 +1,13 @@
+﻿<Window x:Class="FEWindowSelectionFrameTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FEWindowSelectionFrameTest"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="400">
+    <Grid>
+        <Button x:Name="ButtonWindowSelectionTimer" Content="タイマーで選択" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Height="100" Margin="10,10,0,0"/>
+        <Button x:Name="ButtonWindowSelectionLeftButtonUp" Content="マウスの左ボタンを離した位置で選択" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Height="100" Margin="10,115,0,0"/>
+    </Grid>
+</Window>

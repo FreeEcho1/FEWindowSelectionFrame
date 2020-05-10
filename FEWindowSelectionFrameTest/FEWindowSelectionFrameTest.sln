@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FEWindowSelectionFrameTest", "FEWindowSelectionFrameTest\FEWindowSelectionFrameTest.csproj", "{784E648F-F8D7-4A96-9F74-B4B4C64AA415}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9116CB93-EB70-44B8-B24E-F1BE2A406E40} = {9116CB93-EB70-44B8-B24E-F1BE2A406E40}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FEWindowSelectionFrame", "..\FEWindowSelectionFrame\FEWindowSelectionFrame\FEWindowSelectionFrame.csproj", "{9116CB93-EB70-44B8-B24E-F1BE2A406E40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{784E648F-F8D7-4A96-9F74-B4B4C64AA415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{784E648F-F8D7-4A96-9F74-B4B4C64AA415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{784E648F-F8D7-4A96-9F74-B4B4C64AA415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{784E648F-F8D7-4A96-9F74-B4B4C64AA415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9116CB93-EB70-44B8-B24E-F1BE2A406E40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9116CB93-EB70-44B8-B24E-F1BE2A406E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9116CB93-EB70-44B8-B24E-F1BE2A406E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9116CB93-EB70-44B8-B24E-F1BE2A406E40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABEEEE02-464B-44B6-BB0C-5F26E5EBF329}
+	EndGlobalSection
+EndGlobal
