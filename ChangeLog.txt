@@ -1,0 +1,6 @@
+Version 1.2
+*クラスやメンバの名前を変更。
+
+Version 1.1
+*マウスの左ボタンが離されたら選択停止機能を追加。
+*"StartWindowSelection()"を修正。
