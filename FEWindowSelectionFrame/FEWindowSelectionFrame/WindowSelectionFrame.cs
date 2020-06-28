@@ -130,6 +130,19 @@
                                 set_frame_window_rectangle.Height = window_rect.bottom;
                             }
 
+                            // ディスプレイと同じサイズの場合は、全画面モード機能が反応しないようにサイズ調整
+                            System.Drawing.Rectangle screen = System.Windows.Forms.Screen.FromHandle(selected_hwnd).Bounds;
+                            if ((screen.Left == set_frame_window_rectangle.Left)
+                                && (screen.Top == set_frame_window_rectangle.Top)
+                                && (screen.Right == set_frame_window_rectangle.Right)
+                                && (screen.Bottom == set_frame_window_rectangle.Bottom))
+                            {
+                                set_frame_window_rectangle.X += 1;
+                                set_frame_window_rectangle.Y += 1;
+                                set_frame_window_rectangle.Width -= 2;
+                                set_frame_window_rectangle.Height -= 2;
+                            }
+
                             // パスを設定
                             System.Drawing.Drawing2D.GraphicsPath path = new System.Drawing.Drawing2D.GraphicsPath();
                             path.AddRectangle(new System.Drawing.Rectangle(0, 0, set_frame_window_rectangle.Width, set_frame_window_rectangle.Height));     // 外側の四角形
